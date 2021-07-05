@@ -107,8 +107,6 @@ defmodule CandyMart.Orders do
   end
 
   def create_orders(attrs \\ %{}) do
-
-
     data =
       attrs["_json"]
       |> convert_params()
@@ -120,6 +118,7 @@ defmodule CandyMart.Orders do
 
   defp add_time_stamp(item) do
     time = DateTime.utc_now() |> DateTime.to_naive() |> NaiveDateTime.truncate(:second)
+
     Map.merge(item, %{
       inserted_at: time,
       updated_at: time

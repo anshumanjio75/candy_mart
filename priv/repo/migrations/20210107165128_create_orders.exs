@@ -13,7 +13,6 @@ defmodule CandyMart.Repo.Migrations.CreateOrders do
       #   null: false,
       #   index: true
 
-
       timestamps()
     end
   end

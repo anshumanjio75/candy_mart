@@ -3,7 +3,6 @@ defmodule CandyMartWeb.Api.ApiController do
   alias CandyMart.Orders
 
   def create_sale(conn, params) do
-
     with {:ok, order} <- Orders.create_order(params) do
       render(conn, "order.json", %{order: order})
     end
