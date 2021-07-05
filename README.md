@@ -40,11 +40,11 @@ a simple tool to generate POST requests with sample data to /api/sales; can be r
 
 # Tasks and Ideas
 
-  - [ ] Create a csv importer in the admin panel that allows the user to upload priv/data/candy_sales.csv
-  - [ x ] Create an api endpoint to process incoming sales events from api integrations (should support json and urlencoded form data)
-  - [ ] Make a little view to display the current sales statistics (sales by month, year, all time, etc)
-  - [ ] Normalize products and customers out of orders
-  - [ ] Add the ability to process multiple orders at a time through the web api
-  - [ ] Lock down the api endpoint so random users can't access it
-  - [ ] Fix any issues you think should be fixed
-  - [ ] Anything else you think of adding or changing!
+  - [x] Create a csv importer in the admin panel that allows the user to upload priv/data/candy_sales.csv
+  - [ ] Create an api endpoint to process incoming sales events from api integrations (should support json and urlencoded form data)
+  - [x] Make a little view to display the current sales statistics (sales by month, year, all time, etc)
+  - [x] Normalize products and customers out of orders
+  - [x] Add the ability to process multiple orders at a time through the web api
+  - [x] Lock down the api endpoint so random users can't access it
+  - [x] Fix any issues you think should be fixed
+  - [x] Anything else you think of adding or changing!
